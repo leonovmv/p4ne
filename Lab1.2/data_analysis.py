@@ -17,7 +17,7 @@ list_1 = list(map(getvalue, sheet['A'][1:]))
 list_2 = list(map(getvalue, sheet['C'][1:]))
 list_3 = list(map(getvalue, sheet['D'][1:]))
 
-#формируем график
+#рисуем график
 pyplot.plot(list_1, list_2, label="temp")
 pyplot.plot(list_1, list_3, label="active")
 
